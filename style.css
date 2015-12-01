@@ -1,16 +1,15 @@
+
 @font-face {
-    font-family: 'm12';
-    src: url('cssfont/fonts/M12/m12-webfont.eot');
-    src: url('cssfont/fonts/M12/m12-webfont.eot?#iefix') format('embedded-opentype'),
-         url('cssfont/fonts/M12/m12-webfont.woff2') format('woff2'),
-         url('cssfont/fonts/M12/m12-webfont.woff') format('woff'),
-         url('cssfont/fonts/M12/m12-webfont.ttf') format('truetype'),
-         url('cssfont/fonts/M12/m12-webfont.svg#m12_mach_bikerregular') format('svg');
+    font-family: 'retro';
+    src: url('cssfont/fonts/computer/retro_computer_demo-webfont.eot');
+    src: url('cssfont/fonts/computer/recssfont/fonts/computer/tro_computer_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cssfont/fonts/computer/retro_computer_demo-webfont.woff2') format('woff2'),
+         url('cssfont/fonts/computer/retro_computer_demo-webfont.woff') format('woff'),
+         url('cssfont/fonts/computer/retro_computer_demo-webfont.ttf') format('truetype'),
+         url('cssfont/fonts/computer/retro_computer_demo-webfont.svg#retro_computerregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'gothicregular';
@@ -51,25 +50,43 @@ background-color: rgba(183, 36, 38, 0.7); /* rouge*/
 }
 
 
-
-
-section{display: flex;
-flex-direction: column;}
-
-article{display: flex;
-justify-content: space-around;
-align-items: center;}
-
-h3, h5{
-font-family: 'm12';
+section{
+  display: flex;
+flex-direction: column;
 }
 
+article{
+  display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+h3, h5{
+font-family: 'retro';
+font-size: 4.2em;
+}
+.qui{
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+border: solid 1px black;
+  width: 50%;
+  height: 35%;
+box-shadow: 0px 4px 4px 4px #303030 ;}
+.qui p{
+  text-align: justify;
+
+}
+
+h3{text-align: center}
 p, ul{
 font-family: caviardreamsbold;
 flex-grow: 2;
 align-self: flex-end;
 
 }
+section li{font-family: gothicregular;
+font-size: 3em;}
 
 /* body{background-color: white;
 background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
