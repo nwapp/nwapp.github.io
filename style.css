@@ -78,6 +78,14 @@ header{
   width: 60%;
   height: 50%;
 }
+.imgchinois{
+  border: 4px solid #F67747;
+  box-shadow: 5px 4px 8px 4px #FF954A;
+  box-sizing: border-box;
+  width: 60%;
+  height: 60%;
+
+}
 .qui{
   border: solid 1px black;
   width: 50%;
