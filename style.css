@@ -1,83 +1,79 @@
 @font-face {
-    font-family: 'retro';
-    src: url('fonts/computer/retro_computer_demo-webfont.eot');
-    src: url('fonts/computer/recssfont/fonts/computer/tro_computer_demo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/computer/retro_computer_demo-webfont.woff2') format('woff2'),
-         url('fonts/computer/retro_computer_demo-webfont.woff') format('woff'),
-         url('fonts/computer/retro_computer_demo-webfont.ttf') format('truetype'),
-         url('fonts/computer/retro_computer_demo-webfont.svg#retro_computerregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'gothicregular';
-    src: url('fonts/LeagueGothic/leaguegothic-regular-webfont.eot');
-    src: url('fonts/LeagueGothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/LeagueGothic/leaguegothic-regular-webfont.woff2') format('woff2'),
-         url('fonts/LeagueGothic/leaguegothic-regular-webfont.woff') format('woff'),
-         url('fonts/LeagueGothic/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('fonts/LeagueGothic/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'retro';
+  src: url('fonts/computer/retro_computer_demo-webfont.eot');
+  src: url('fonts/computer/recssfont/fonts/computer/tro_computer_demo-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/computer/retro_computer_demo-webfont.woff2') format('woff2'), url('fonts/computer/retro_computer_demo-webfont.woff') format('woff'), url('fonts/computer/retro_computer_demo-webfont.ttf') format('truetype'), url('fonts/computer/retro_computer_demo-webfont.svg#retro_computerregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'caviardreamsbold';
-    src: url('fonts/CaviarDreams/caviar_dreams_bold-webfont.eot');
-    src: url('fonts/CaviarDreams/caviar_dreams_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/CaviarDreams/caviar_dreams_bold-webfont.woff2') format('woff2'),
-         url('fonts/CaviarDreams/caviar_dreams_bold-webfont.woff') format('woff'),
-         url('fonts/CaviarDreams/caviar_dreams_bold-webfont.ttf') format('truetype'),
-         url('fonts/CaviarDreams/caviar_dreams_bold-webfont.svg#caviar_dreamsbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'gothicregular';
+  src: url('fonts/LeagueGothic/leaguegothic-regular-webfont.eot');
+  src: url('fonts/LeagueGothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/LeagueGothic/leaguegothic-regular-webfont.woff2') format('woff2'), url('fonts/LeagueGothic/leaguegothic-regular-webfont.woff') format('woff'), url('fonts/LeagueGothic/leaguegothic-regular-webfont.ttf') format('truetype'), url('fonts/LeagueGothic/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-.container-fluid{
-  padding-right:0px;
+@font-face {
+  font-family: 'caviardreamsbold';
+  src: url('fonts/CaviarDreams/caviar_dreams_bold-webfont.eot');
+  src: url('fonts/CaviarDreams/caviar_dreams_bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/CaviarDreams/caviar_dreams_bold-webfont.woff2') format('woff2'), url('fonts/CaviarDreams/caviar_dreams_bold-webfont.woff') format('woff'), url('fonts/CaviarDreams/caviar_dreams_bold-webfont.ttf') format('truetype'), url('fonts/CaviarDreams/caviar_dreams_bold-webfont.svg#caviar_dreamsbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.container-fluid {
+  padding-right: 0px;
   padding-left: 0px;
 }
-header{
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+header {
   z-index: 1;
 }
 .kevin-c {
-  background-color: rgba(77, 179, 224, 0.7); /*bleu */
-  box-shadow: 1px -7px 17px 1px ;
+  background-color: rgba(77, 179, 224, 0.7);
+  /*bleu */
+  box-shadow: 1px -7px 17px 1px;
 }
 .audrey {
-  background-color: rgba(159, 59, 168, 0.7);/* violet*/
-  box-shadow: 1px -7px 17px 1px ;
+  background-color: rgba(159, 59, 168, 0.7);
+  /* violet*/
+  box-shadow: 1px -7px 17px 1px;
 }
 .chinois {
-  background-color: rgba(231, 145, 37, 0.8);/* orange */
-  box-shadow: 1px -7px 17px 1px ;
+  background-color: rgba(231, 145, 37, 0.8);
+  /* orange */
+  box-shadow: 1px -7px 17px 1px;
 }
 .sarah {
-  background-color: rgba(183, 36, 38, 0.8); /* rouge*/
-  box-shadow: 1px -7px 17px 1px ;
+  background-color: rgba(183, 36, 38, 0.8);
+  /* rouge*/
+  box-shadow: 1px -7px 17px 1px;
 }
-.imgaudrey{
+.imgaudrey {
   border: 4px solid #750F5B;
   box-shadow: 5px 4px 8px 4px #592254;
   box-sizing: border-box;
   width: 50%;
   height: 50%;
 }
-.imgkevin{
+.imgkevin {
   border: 4px solid #6774CE;
   box-shadow: 5px 4px 8px 4px #000033;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
 }
-.imgsarah{
+
+
+.imgsarah {
   border: 4px solid #8A4647;
   box-shadow: 5px 4px 8px 4px #7D3F40;
   box-sizing: border-box;
   width: 60%;
   height: 50%;
 }
+
 .imgchinois{
   border: 4px solid #F67747;
   box-shadow: 5px 4px 8px 4px #FF954A;
@@ -86,33 +82,31 @@ header{
   height: 60%;
 
 }
-.qui{
+
+.qui
   border: solid 1px black;
   width: 50%;
   height: 35%;
-  box-shadow: 0px 4px 4px 4px #303030 ;
+  box-shadow: 0px 4px 4px 4px #303030;
   background-color: rgba(255, 255, 255, 0.5);
 }
-.qui p{
+.qui p {
   text-align: justify;
   padding: 1%;
-  font-size: 1.3em;}
-
-h3, h5{
+  font-size: 1.3em;
+}
+h3, h5 {
   font-family: 'retro';
   font-size: 3.8em;
-
 }
-h3{
+h3 {
   text-align: center;
 }
-p{
+p {
   font-family: caviardreamsbold;
   flex-grow: 2;
-
-
 }
-article li{
+article li {
   font-family: gothicregular;
   font-size: 3.5em;
   list-style-type: none;
@@ -120,40 +114,39 @@ article li{
 }
 
 /* les pourcentages dans les barres*/
-.jutsu{
-    border-bottom: dashed 5px gray;
-    border-top: dashed 5px gray;
-    text-align: center;
+
+.jutsu {
+  border-bottom: dashed 5px gray;
+  border-top: dashed 5px gray;
+  text-align: center;
 }
-.prc{
+.prc {
   margin-top: 17px;
   font-family: retro;
   font-size: 30px;
 }
-
-.imgjutsu{
-    height: 50px;
-    width: 50px;
+.imgjutsu {
+  height: 50px;
+  width: 50px;
 }
-.progress-bar{
+.progress-bar {
   box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.1) inset;
-  background-color: #A00000 ;
+  background-color: #A00000;
 }
-.progress{
-    height: 50px;
-    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.1) inset;
+.progress {
+  height: 50px;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.1) inset;
 }
-
-.kevin-c .progress-bar{
+.kevin-c .progress-bar {
   background-color: #0000CC;
 }
-.audrey .progress-bar{
-background-color: #750F5B;
+.audrey .progress-bar {
+  background-color: #750F5B;
 }
-.chinois .progress-bar{
+.chinois .progress-bar {
   background-color: #D57C3E;
 }
-.icokevin:before{
+.icokevin:before {
   display: inline-block;
   width: 93px;
   height: 100px;
@@ -162,7 +155,7 @@ background-color: #750F5B;
   background: url("img/embleme_kevin.png") no-repeat 0 0;
   background-size: 100%;
 }
-.icochinois:before{
+.icochinois:before {
   display: inline-block;
   width: 93px;
   height: 100px;
@@ -171,7 +164,7 @@ background-color: #750F5B;
   background: url("img/embleme_kevin_l.png") no-repeat 0 0;
   background-size: 100%;
 }
-.icoaudrey:after{
+.icoaudrey:after {
   display: inline-block;
   width: 93px;
   height: 100px;
@@ -180,7 +173,7 @@ background-color: #750F5B;
   background: url("img/embleme_jeanne.png") no-repeat 0 0;
   background-size: 100%;
 }
-.icosarah:after{
+.icosarah:after {
   display: inline-block;
   width: 93px;
   height: 100px;
@@ -189,6 +182,7 @@ background-color: #750F5B;
   background: url("img/embleme_sarah.png") no-repeat 0 0;
   background-size: 100%;
 }
+
 /* body{background-color: white;
 background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
 linear-gradient(155deg, #d00 23px, transparent 23px),
@@ -196,6 +190,8 @@ linear-gradient(335deg, #b00 23px, transparent 23px),
 linear-gradient(155deg, #d00 23px, transparent 23px);
 background-size: 58px 58px;
 background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;} */
+
+
 /* header, footer{
   background-color: white;
   background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
@@ -206,22 +202,18 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;} */
   background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 }*/
 
-footer{
+footer {
   text-align: center;
   background-color: silver;
-  background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
-  linear-gradient(155deg, #d00 23px, transparent 23px),
-  linear-gradient(335deg, #b00 23px, transparent 23px),
-  linear-gradient(155deg, #d00 23px, transparent 23px);
+  background-image: linear-gradient(335deg, #b00 23px, transparent 23px), linear-gradient(155deg, #d00 23px, transparent 23px), linear-gradient(335deg, #b00 23px, transparent 23px), linear-gradient(155deg, #d00 23px, transparent 23px);
   background-size: 58px 58px;
   background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
   border-top: 40px solid silver;
   box-sizing: border-box;
 }
-
-footer p{
-font-size: 44px;
-color: white;
-font-family: retro;
-background-color: black;
+footer p {
+  font-size: 44px;
+  color: white;
+  font-family: retro;
+  background-color: black;
 }
