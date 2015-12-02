@@ -177,6 +177,8 @@ nav ul li:hover {
 nav>ul>li:hover:before {
     transform:rotate(1440deg);
     transition:linear 4s;
+   -moz-transform:rotate(1440deg);
+   -moz-transition:linear 4s;
 }
 
 nav>ul>li:before {
