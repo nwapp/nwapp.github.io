@@ -84,7 +84,6 @@ header{
   box-sizing: border-box;
   width: 60%;
   height: 60%;
-
 }
 .qui{
   border: solid 1px black;
@@ -224,4 +223,8 @@ font-size: 44px;
 color: white;
 font-family: retro;
 background-color: black;
+}
+.col-md-12, .col-xs-6, .col-xs-12{
+  padding-right: 0px;
+  padding-left: 0px;
 }
