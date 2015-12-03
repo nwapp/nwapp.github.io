@@ -196,6 +196,7 @@ nav>ul>li:before {
 /*======================== SOUS-MENU MEMBRES =========================*/
 nav ul li ul {
    display: none;
+   z-index: 1000;
 }
 
 nav ul li:hover ul {
@@ -204,6 +205,8 @@ nav ul li:hover ul {
     background-color: silver;
     text-align: center;
     font-size: .7em;
+    margin: 0;
+    padding: 0;
 }
 
 /*=====================AJOUT DES NINJAS DANS LA LISTE DES MEMBRES ET DIMENSIONNEMENT =============================*/
@@ -251,7 +254,6 @@ nav ul li ul li:last-child:before {
 
 nav ul li ul li:hover:before {
     transform:translateY(-6px);
-
 }
 
 nav ul li a:hover {
