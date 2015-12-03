@@ -291,3 +291,12 @@ overflow: hidden;
     top:-10px;
   }
 }
+/*==========================================Lien Responsive==========================*/
+.a_responsive > p{
+  font-family: retro;
+  font-size: 2em;
+}
+.a_responsive > p > a:focus{
+  text-decoration: none;
+  color: white;
+}
