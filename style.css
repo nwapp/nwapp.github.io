@@ -24,6 +24,10 @@ width: 100%;
 }
 .container-fluid {
   padding-right: 0px;
+  width: 100%;
+}
+.container-fluid{
+  padding-right:0px;
   padding-left: 0px;
 }
 .row {
@@ -72,6 +76,11 @@ header {
 .imgsarah {
   border: 4px solid #8A4647;
   box-shadow: 5px 4px 8px 4px #7D3F40;
+=======
+.imgsarah{
+  border: 4px solid #A00000;
+  box-shadow: 5px 4px 8px 4px #430000;
+>>>>>>> f3067d2ddaa5d961526375fe9aaf3362c3342730
   box-sizing: border-box;
   width: 60%;
   height: 50%;
@@ -83,7 +92,6 @@ header {
   box-sizing: border-box;
   width: 60%;
   height: 60%;
-
 }
 
 .qui{
@@ -221,6 +229,10 @@ footer p {
   background-color: black;
 }
 
+.col-md-12, .col-xs-6, .col-xs-12{
+  padding-right: 0px;
+  padding-left: 0px;
+}
 .col-md-12, .col-xs-6, .col-xs-12{
   padding-right: 0px;
   padding-left: 0px;
