@@ -73,14 +73,9 @@ header {
 }
 
 
-.imgsarah {
-  border: 4px solid #8A4647;
-  box-shadow: 5px 4px 8px 4px #7D3F40;
-=======
 .imgsarah{
   border: 4px solid #A00000;
   box-shadow: 5px 4px 8px 4px #430000;
->>>>>>> f3067d2ddaa5d961526375fe9aaf3362c3342730
   box-sizing: border-box;
   width: 60%;
   height: 50%;
