@@ -163,6 +163,8 @@ header h1 {
 nav {
     background-color: silver;
 }
+
+
 nav ul {
     display: flex;
     justify-content:space-around;
@@ -181,10 +183,11 @@ nav ul li:hover {
 }
 
 nav>ul>li:hover:before {
+
+ -moz-transform:rotate(1440deg);
+ -moz-transition:linear 4s;
     transform:rotate(1440deg);
     transition:linear 4s;
-   -moz-transform:rotate(1440deg);
-   -moz-transition:linear 4s;
 }
 
 nav>ul>li:before {
