@@ -262,6 +262,43 @@ nav ul li a:hover {
 }
 /*SECTION*/
 
+.volet>p {
+    margin-bottom: 0;
+}
+
+.appear {
+    height: 0;
+    overflow: hidden;
+}
+
+.volet:hover [class^="appear"] {
+    height: 100px;
+    width: 87%;
+    position: absolute;
+    transform:translateY(-100px);
+    transition:linear .5s;
+}
+
+div[class^="appear"] p {
+    font-family: "retro";
+    padding-left: 5px;
+}
+
+.volet:hover .appear-kevin {
+  background-color: #0000CC;
+}
+
+.volet:hover .appear-audrey {
+  background-color: ;
+}
+
+.volet:hover .appear-chinois {
+  background-color: ;
+}
+
+.volet:hover .appear-sarah {
+  background-color: ;
+}
 
 
 
