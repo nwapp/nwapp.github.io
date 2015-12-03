@@ -270,7 +270,6 @@ div[class^="appear"] {
 
 .volet:hover [class^="appear"] {
     height: 100px;
-    width: 87%;
     position: absolute;
     transform:translateY(-100px);
     transition:linear .5s;
@@ -283,6 +282,7 @@ div[class^="appear"] p {
 
 .volet:hover .appear-kevin {
   background-color: #0000CC;
+  width: 87%;
 }
 
 .volet:hover .appear-audrey {
@@ -295,6 +295,7 @@ div[class^="appear"] p {
 
 .volet:hover .appear-sarah {
   background-color:#A00000;
+  width: 56.76%;
 }
 
 
