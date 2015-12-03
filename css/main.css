@@ -288,11 +288,13 @@ div[class^="appear"] p {
 }
 
 .volet:hover .appear-audrey {
-  background-color: ;
+  background-color:#750F5B;
+  width: 47.33%;
 }
 
 .volet:hover .appear-chinois {
-  background-color: #F67747;
+  background-color:#F67747;
+  width: 55.90%;
 }
 
 .volet:hover .appear-sarah {
