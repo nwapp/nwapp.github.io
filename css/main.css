@@ -1,19 +1,21 @@
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 /*
@@ -25,13 +27,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
-
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 /*
@@ -39,12 +40,12 @@ html {
  */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 /*
@@ -53,13 +54,8 @@ hr {
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
 }
 
 /*
@@ -67,9 +63,9 @@ video {
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -77,7 +73,7 @@ fieldset {
  */
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /* ==========================================================================
@@ -85,243 +81,217 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
 /* GENERAL*/
 
-
 @font-face {
-    font-family: 'gothicregular';
-    src: url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.eot');
-    src: url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.woff2') format('woff2'),
-         url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.woff') format('woff'),
-         url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'gothicregular';
+  src: url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.eot');
+  src: url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.woff2') format('woff2'), url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.woff') format('woff'), url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.ttf') format('truetype'), url('cssfont/fonts/LeagueGothic/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
-
+a:hover {
+  text-decoration: none;
+}
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
-
 h3 {
   text-align: center;
 }
 p, ul {
-    font-family: caviardreamsbold;
-    flex-grow: 2;
-    align-self: flex-end;
+  font-family: caviardreamsbold;
+  flex-grow: 2;
+  align-self: flex-end;
 }
-
 section li {
   font-family: gothicregular;
-font-size: 3.5em;
-list-style-type: none;
-list-style-image: url("img/japan32.png");
+  font-size: 3.5em;
+  list-style-type: none;
+  list-style-image: url("img/japan32.png");
 }
 
 /*HEADER*/
-header  {
-    text-align: center;
-    background-color: silver;
-    background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
-    linear-gradient(155deg, #d00 23px, transparent 23px),
-    linear-gradient(335deg, #b00 23px, transparent 23px),
-    linear-gradient(155deg, #d00 23px, transparent 23px);
-    background-size: 58px 58px;
-    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+
+header {
+  text-align: center;
+  background-color: silver;
+  background-image: linear-gradient(335deg, #b00 23px, transparent 23px), linear-gradient(155deg, #d00 23px, transparent 23px), linear-gradient(335deg, #b00 23px, transparent 23px), linear-gradient(155deg, #d00 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 }
 
 /*=============MODIFIER LA TAILLE DU LOGO=====================*/
+
 header img {
   width: 50%;
   min-width: 300px;
 }
 
 /*=================CACHER LE TITRE============================*/
+
 header h1 {
-    opacity: 0;
-    margin: 0;
+  opacity: 0;
+  margin: 0;
 }
 
 /*========================NAV================================*/
+
 nav {
-    background-color: silver;
+  background-color: silver;
 }
 nav ul {
-    display: flex;
-    justify-content:space-around;
+  display: flex;
+  justify-content: space-around;
 }
-
 nav ul li {
-    margin: auto;
-    width: 150px;
-    font-family: 'gothicregular';
-    font-size: 1.5em;
+  margin: auto;
+  width: 150px;
+  font-family: 'gothicregular';
+  font-size: 1.5em;
 }
-
 nav ul li:hover {
-    cursor: pointer;
-    color: white;
+  cursor: pointer;
+  color: white;
 }
-
 nav>ul>li:hover:before {
-    transform:rotate(1440deg);
-    transition:linear 4s;
-   -moz-transform:rotate(1440deg);
-   -moz-transition:linear 4s;
+  transform: rotate(1440deg);
+  transition: linear 4s;
+  -moz-transform: rotate(1440deg);
+  -moz-transition: linear 4s;
 }
-
 nav>ul>li:before {
-    content:url("../img/japan20.png");
-    margin-right: 5px;
-    color: black;
+  content: url("../img/japan20.png");
+  margin-right: 5px;
+  color: black;
 }
 
 /*======================== SOUS-MENU MEMBRES =========================*/
-nav ul li ul {
-   display: none;
-   z-index: 1000;
-}
 
+nav ul li ul {
+  display: none;
+  z-index: 1000;
+}
 nav ul li:hover ul {
-    display: block;
-    position: absolute;
-    background-color: silver;
-    text-align: center;
-    font-size: .7em;
-    margin: 0;
-    padding: 0;
+  display: block;
+  position: absolute;
+  background-color: silver;
+  text-align: center;
+  font-size: .7em;
+  margin: 0;
+  padding: 0;
 }
 
 /*=====================AJOUT DES NINJAS DANS LA LISTE DES MEMBRES ET DIMENSIONNEMENT =============================*/
+
 nav ul li ul li:first-child:before {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    content: "";
-    background: url("../img/embleme_kevin.png") no-repeat 0 0;
-    background-size: 100%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  content: "";
+  background: url("../img/embleme_kevin.png") no-repeat 0 0;
+  background-size: 100%;
 }
-
 nav ul li ul li:nth-child(2):before {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    content: "";
-    background: url("../img/embleme_jeanne.png") no-repeat 0 0;
-    background-size: 100%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  content: "";
+  background: url("../img/embleme_jeanne.png") no-repeat 0 0;
+  background-size: 100%;
 }
-
 nav ul li ul li:nth-child(3):before {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    content: "";
-    background: url("../img/embleme_kevin_l.png") no-repeat 0 0;
-    background-size: 100%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  content: "";
+  background: url("../img/embleme_kevin_l.png") no-repeat 0 0;
+  background-size: 100%;
 }
-
 nav ul li ul li:last-child:before {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    content: "";
-    background: url("../img/embleme_sarah.png") no-repeat 0 0;
-    background-size: 100%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  content: "";
+  background: url("../img/embleme_sarah.png") no-repeat 0 0;
+  background-size: 100%;
 }
 
 /*============ANIMATION DES NINJAS ET MODIF COULEUR DES LIENS====================*/
 
 nav ul li ul li:hover:before {
-    transform:translateY(-6px);
+  transform: translateY(-6px);
+}
+nav ul li a:hover {
+  color: white;
 }
 
-nav ul li a:hover {
-    color: white;
-}
 /*SECTION*/
 
 .volet>p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
-
 div[class^="appear"] {
-    height: 0;
-    overflow: hidden;
+  height: 0;
+  overflow: hidden;
 }
-
 .volet:hover [class^="appear"] {
-    height: 100px;
-    position: absolute;
-    transform:translateY(-100px);
-    transition:linear .5s;
+  height: 100px;
+  position: absolute;
+  transform: translateY(-100px);
+  transition: linear .5s;
 }
-
 div[class^="appear"] p {
-    font-family: "retro";
-    padding-left: 5px;
+  font-family: "retro";
+  padding-left: 5px;
 }
-
 .volet:hover .appear-kevin {
   background-color: #5d69ba;
   width: 87%;
 }
-
 .volet:hover .appear-audrey {
-  background-color:#750F5B;
+  background-color: #750F5B;
   width: 47.33%;
 }
-
 .volet:hover .appear-chinois {
-  background-color:#F67747;
+  background-color: #F67747;
   width: 55.90%;
 }
-
 .volet:hover .appear-sarah {
-  background-color:#A00000;
+  background-color: #A00000;
   width: 56.76%;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers:
  */
 
 .hidden {
-    display: none !important;
+  display: none !important;
 }
 
 /*
@@ -330,14 +300,14 @@ div[class^="appear"] p {
  */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 /*
@@ -346,14 +316,13 @@ div[class^="appear"] p {
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
 /*
@@ -361,7 +330,7 @@ div[class^="appear"] p {
  */
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /*
@@ -376,14 +345,14 @@ div[class^="appear"] p {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
 }
-
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /* ==========================================================================
@@ -393,14 +362,10 @@ div[class^="appear"] p {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for viewports that meet the condition */
 }
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
@@ -410,72 +375,52 @@ div[class^="appear"] p {
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+  *, *:before, *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a, a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
+  a[href^="#"]:after, a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  thead {
+    display: table-header-group;
+  }
+  tr, img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2, h3 {
+    page-break-after: avoid;
+  }
 }

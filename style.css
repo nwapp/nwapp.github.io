@@ -19,18 +19,18 @@
   font-weight: normal;
   font-style: normal;
 }
-html, body{
+html, body {
   width: 100%;
 }
 .container-fluid {
   padding-right: 0px;
   width: 100%;
 }
-html,body{
-  width:100%;
+html, body {
+  width: 100%;
 }
-.container-fluid{
-  padding-right:0px;
+.container-fluid {
+  padding-right: 0px;
   padding-left: 0px;
 }
 .row {
@@ -74,25 +74,21 @@ header {
   width: 100%;
   height: 100%;
 }
-
-
-.imgsarah{
+.imgsarah {
   border: 4px solid #A00000;
   box-shadow: 5px 4px 8px 4px #430000;
   box-sizing: border-box;
   width: 60%;
   height: 50%;
 }
-
-.imgchinois{
+.imgchinois {
   border: 4px solid #F67747;
   box-shadow: 5px 4px 8px 4px #7F4A25;
   box-sizing: border-box;
   width: 60%;
   height: 60%;
 }
-
-.qui{
+.qui {
   margin-top: 16%;
   margin-bottom: 15%;
   border: solid 1px black;
@@ -228,75 +224,75 @@ footer p {
   font-family: retro;
   background-color: black;
 }
+.col-md-12, .col-xs-6, .col-xs-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.col-md-12, .col-xs-6, .col-xs-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 
-.col-md-12, .col-xs-6, .col-xs-12{
-  padding-right: 0px;
-  padding-left: 0px;
-}
-.col-md-12, .col-xs-6, .col-xs-12{
-  padding-right: 0px;
-  padding-left: 0px;
-}
 /*==========================Video==================================*/
-.vid{
+
+.vid {
   position: relative;
 }
-#video_background{
-position: absolute;
-top:-10px;
-right: 0px;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: -1000;
-overflow: hidden;
+#video_background {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
 }
-@media screen and (max-width:1366px){
-  .qui{
+@media screen and (max-width:1366px) {
+  .qui {
     margin-top: 16%;
     margin-bottom: 16%;
   }
-  #video_background{
-    top:-10px;
-
+  #video_background {
+    top: -10px;
   }
 }
-@media screen and (max-width:1024px){
-  .qui{
+@media screen and (max-width:1024px) {
+  .qui {
     margin-top: 17%;
     margin-bottom: 16%;
   }
-  #video_background{
-    top:-10px;
-
+  #video_background {
+    top: -10px;
   }
 }
-@media screen and (max-width:768px){
-  .qui{
+@media screen and (max-width:768px) {
+  .qui {
     margin-top: 21%;
     margin-bottom: 21%;
   }
-  #video_background{
-    top:-12px;
-
+  #video_background {
+    top: -12px;
   }
 }
-@media screen and (max-width:640px){
-  .qui{
+@media screen and (max-width:640px) {
+  .qui {
     margin-top: 29%;
     margin-bottom: 29%;
   }
-  #video_background{
-    top:-10px;
+  #video_background {
+    top: -10px;
   }
 }
+
 /*==========================================Lien Responsive==========================*/
-.a_responsive > p{
+
+.a_responsive > p {
   font-family: retro;
   font-size: 2em;
 }
-.a_responsive > p > a:focus{
+.a_responsive > p > a:focus {
   text-decoration: none;
   color: white;
 }
