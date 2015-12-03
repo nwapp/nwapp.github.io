@@ -263,7 +263,7 @@ nav ul li a:hover {
     margin-bottom: 0;
 }
 
-.appear {
+div[class^="appear"] {
     height: 0;
     overflow: hidden;
 }
