@@ -147,6 +147,12 @@ header  {
     background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 }
 
+/*=============MODIFIER LA TAILLE DU LOGO=====================*/
+header img {
+  width: 50%;
+  min-width: 300px;
+}
+
 /*=================CACHER LE TITRE============================*/
 header h1 {
     opacity: 0;
